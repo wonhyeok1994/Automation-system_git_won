@@ -1,0 +1,10 @@
+<launch>
+<!--
+	<param name="robot_description" command="cat $(find swiftpro)/urdf/pro_model.xacro" />
+	<param name="use_gui" value= "False" />
+-->
+	<node name="IWH_write_node_1" pkg="iwh_arm" type="IWH_write_node_1"/>
+	<node name="IWH_moveit_node_1" pkg="iwh_arm" type="IWH_moveit_node_1"/>
+
+</launch>
+

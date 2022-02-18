@@ -1,0 +1,12 @@
+<launch>
+<!--
+	<node name="gui_1" pkg="iwh_arm" type="gui_1"/>
+	<node name="IWH_pose_node_1" pkg="iwh_arm" type="IWH_pose_node_1"/>
+-->
+
+	<node name="yay_opencv_box" pkg="vision" type="yay_opencv_box"/> 
+	<node name="IWH_pose_node_1" pkg="iwh_arm" type="IWH_pose_node_1"/>
+	<node name="IWH_moveit_node_1" pkg="iwh_arm" type="IWH_moveit_node_1"/>
+	<node name="IWH_write_node_1" pkg="iwh_arm" type="IWH_write_node_1"/>
+
+</launch>

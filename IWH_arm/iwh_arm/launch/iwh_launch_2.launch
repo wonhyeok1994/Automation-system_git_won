@@ -1,0 +1,19 @@
+<launch>
+<!--
+	<node name="gui_2" pkg="iwh_arm" type="gui_2"/>
+	<node name="camera2_node_t" pkg="vision" type="camera2_node_t"/>
+-->
+
+
+<!--	
+	<node name="IWH_pose_node_2" pkg="iwh_arm" type="IWH_pose_node_2"/>
+    <node name="yay_opencv_marker" pkg="vision" type="yay_opencv_marker"/> 
+--> 
+
+	<node name="yay_opencv_marker" pkg="vision" type="yay_opencv_marker"/> 
+	<node name="IWH_pose_node_2" pkg="iwh_arm" type="IWH_pose_node_2"/> 
+	<node name="IWH_moveit_node_2" pkg="iwh_arm" type="IWH_moveit_node_2"/>
+	<node name="IWH_write_node_2" pkg="iwh_arm" type="IWH_write_node_2"/>
+
+</launch>
+

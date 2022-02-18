@@ -1,0 +1,11 @@
+<launch>
+<!--
+	<node name="gui" pkg="iwh_arm" type="gui"/>
+
+	<node name="IWH_pose_node_1" pkg="iwh_arm" type="IWH_pose_node_1"/>
+	-->
+	
+	<node name="IWH_moveit_node_1" pkg="iwh_arm" type="IWH_moveit_node_1"/>
+	<node name="IWH_write_node_1" pkg="iwh_arm" type="IWH_write_node_1"/>
+
+</launch>

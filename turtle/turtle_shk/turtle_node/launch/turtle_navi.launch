@@ -1,0 +1,10 @@
+<launch>
+    <!--<arg name="map_file" default="$(find turtlebot3_navigation)maps/map.yaml"/>-->
+    <arg name="map_file" default="$(find turtle_node)/maps/map.yaml"/>
+    
+    <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+        <arg name="map_file" value="$(arg map_file)"/>
+    </include>
+    
+    <node pkg="turtle_node" type="turtle_node" name="turtle_node"/>
+</launch>

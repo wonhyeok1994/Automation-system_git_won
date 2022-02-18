@@ -1,0 +1,28 @@
+start_goal x 0.330
+start_goal y 0.16
+start_goal z 0.0
+start_goal roll 0.0
+start_goal pitch 0.0
+start_goal yaw 1.53
+end_goal x 0.45
+end_goal y 2.1
+end_goal z 0.0
+end_goal roll 0.0
+end_goal pitch 0.0
+end_goal yaw -1.47
+---
+// std::map<std::string, double> goal;
+// goal["x"] = 0.335;
+// goal["y"] = 0.13;
+// ...
+// goal["yaw"] = 1.53;
+// setParam("start_goal", goal);
+
+
+// std::map<std::string, double> goal;
+// goal["x"] = 0.45;
+// goal["y"] = 0.2.6;
+// ...
+// goal["yaw"] = -1.47;
+// setParam("end_goal", goal);
+

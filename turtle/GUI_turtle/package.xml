@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>GUI_turtle</name>
+  <version>1.0.1</version>
+  <description>
+    Message and service types: custom messages and services for TurtleBot3 packages
+  </description>
+  <license>Apache 2.0</license>
+  <author email="95kim2@gmail.com">shk</author>
+  <maintainer email="95kim2@gmail.com">shk</maintainer>
+  <url type="website">later</url>
+  <url type="emanual">later</url>
+  <url type="repository">later</url>
+  <url type="bugtracker">later</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>std_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>
